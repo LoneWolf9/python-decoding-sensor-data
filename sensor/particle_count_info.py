@@ -22,5 +22,5 @@ class ParticleData(HouseInfo):
         particulate = {
             "good": 0,
             "moderate": 0,
-            "bad": 0,
+            "bad": 0
         }

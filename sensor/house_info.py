@@ -1,4 +1,4 @@
-from datatime import date
+from datetime import date
 
 
 class HouseInfo:

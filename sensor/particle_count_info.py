@@ -28,7 +28,7 @@ class ParticleData(HouseInfo):
         for rec in data:
             if rec <= 50.0:
                 particulate["good"]
-            elif rec == 50.0 & rec <= 100.0:
+            elif rec > 50.0 & rec <= 100.0:
                 particulate["moderate"]
             elif rec > 100.0:
                 particulate["bad"]

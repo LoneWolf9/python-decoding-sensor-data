@@ -10,4 +10,4 @@ class HouseInfo:
                 field_data.append(record[field])
             elif rec_area == record['area']:
                 field_data.append(record['area'])
-    return field_data
+        return field_data

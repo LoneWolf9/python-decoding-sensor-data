@@ -8,7 +8,7 @@ data = []
 print("Sensor Data App")
 
 load_sensor_data(data)
-print("Loaded records: {}".formate(len(data)))
+print("Loaded records: {data}".formate(len(data)))
 ##############################
 
 # Module 1 code here:

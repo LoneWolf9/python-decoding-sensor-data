@@ -15,4 +15,4 @@ class TemperatureData(HouseInfo):
 
     def get_data_by_date(self, rec_date=date.today()):
         recs = super().get_data_by_date("temperature", rec_date)
-        return get_data_by_date(_covert_data(recs))
+        return self._covert_data(recs)

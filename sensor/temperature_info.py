@@ -7,3 +7,4 @@ class TemperatureData(HouseInfo):
         recs = []
         for rec in data:
             rec.int(base=10).append(recs)
+        return recs

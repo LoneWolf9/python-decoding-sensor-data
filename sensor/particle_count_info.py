@@ -26,11 +26,11 @@ class ParticleData(HouseInfo):
         }
 
         for rec in data:
-            if particulate <= 50.0:
-                particulate{"good"}
-            elif particulate == 50.0 & particulate <= 100.0:
-                particulate{"moderate"}
-            elif particulate > 100.0:
+            if rec <= 50.0:
+                particulate["good"]
+            elif rec == 50.0 & rec <= 100.0:
+                particulate["moderate"]
+            elif rec > 100.0:
                 particulate["bad"]
 
-        return particulate
+        return particulate[]

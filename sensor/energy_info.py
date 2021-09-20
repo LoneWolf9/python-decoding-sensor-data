@@ -11,3 +11,9 @@ class EnergyData(HouseInfo):
         energy = energy & self.ENERGY_BITS
         energy = energy >> 4
         return energy
+
+    def _convert_data(self, data):
+        recs = []
+        for rec in data:
+            recs.append(self._get_energy(rec))
+        return recs

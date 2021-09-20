@@ -49,7 +49,7 @@ print("\nHouse Humidity sensor records for area {} = {}".format(test_area, len(r
 print("\tAverage: {} humidity".format(mean(recs)))
 
 # Module 5 code here:
-particle_data = ParticleData(data)
+
 recs = particle_data.get_data_by_area(rec_area=test_area)
 print("\nHouse Particle sensor records for area {} = {}".format(test_area, len(recs)))
 concentrations = particle_data.get_data_concentrations(data=recs)
